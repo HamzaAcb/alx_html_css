@@ -1,0 +1,379 @@
+. {
+    font-family: Source Sans Pro;
+    } 
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    max-height: 100px; /* Example max height for the logo */
+    margin-left: 100px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 100px;
+    padding: 20px;
+    display: flex;
+
+}
+
+ul li {
+    margin-right: 50px; /* Adjust as needed */
+}
+
+
+.bg {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Object.png'); /* Replace with your background image path */
+    background-size: contain;
+    background-position: ;
+    background-repeat: no-repeat;
+    color: white; /* Text color on top of background */
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+    overflow-y: hidden;
+    height: 100%;
+    width: 1300px;
+    height: 900px;
+}
+
+.get_schooled {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.get_schooled h1 {
+    font-size: 80px;
+    margin: 10px;
+}
+
+.get_schooled span {
+    padding: 10px;
+}
+
+.get_schooled button {
+    margin: 50px;
+  align-items: center;
+  background-color: #C271FF;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 50px;
+  max-width: 680px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.learn {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.pros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.pro1 {
+    width: 20%;
+    box-sizing: border-box;
+}
+.pro2 {
+    width: 20%;
+    box-sizing: border-box;
+}
+.pro3 {
+    width: 20%;
+    box-sizing: border-box;
+}
+.pro4 {
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.pros div {
+    width: 200px;
+    height: 200px;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.pros p {
+    text-align: center;
+}
+
+.pros h3 {
+    text-align: center;
+}
+
+.review {
+    background-color: #C271FF;
+    margin: 0;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1100px;
+
+}
+
+.review_pic {
+    width: 20%;
+    box-sizing: border-box;
+}
+.review_text {
+    width: 60%;
+    box-sizing: content-box;
+    text-align:left;
+    color: white;
+}
+ .review_text h3 {
+    padding-left: 45px;
+ }
+ .review_text P {
+    padding-left: 45px;
+ }
+ .tuto h2 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: white;
+ }
+
+
+ .tutorials {
+    margin: 100px 0;
+}
+
+
+.tutorials h2{
+    text-align: center;
+    font-weight: 340;
+    margin: 60px 0;
+}
+.tuto1, .tuto2, .tuto3, .tuto4 {
+    width: 255px;
+    margin: 0 20px;
+}
+.tutos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tutos h3 {
+    text-align: left;
+    font-size: 16px;
+}
+.tutos p {
+    text-align: left;
+    color: var(--gray);
+    font-size: 14px;
+    width: 260px;
+}
+.phillip {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.phillip h4 {
+    font-size: 14px;
+    color: var(--purple);
+    margin: 50 10px;
+}
+
+.phillip img{
+    width: 8%;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.rating p{
+    color: var(--purple);
+    text-align: right;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.membership {
+    background-color: #071629;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.membership button {
+    margin: 50px;
+  align-items: center;
+  background-color: #C271FF;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 50px;
+  max-width: 680px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.member h3 {
+    color: white;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.member p {
+    color: white;
+    font-size: 14px;
+}
+.membership h2 {
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.membership span {
+    font-weight: bold;
+}
+
+.member {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.first, .second, .third, .fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 220px;
+    margin: 30px 10px;
+}
+
+/* footer */
+.footer {
+    background-color: #071629;
+}
+
+.logo_icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.fa-brands {
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.footer p{
+    text-align: center;
+    color: var(--white);
+    padding-bottom: 30px;
+}
+
+.FAQ {
+    margin: 100px 0;
+}
+
+.FAQ h2 {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.questions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.upper, .bottom {
+    width: 400px;
+    margin: 0 100px;
+}
+
+
+.questions h3 {
+    font-size: 16px;
+    margin: 30px 0;
+}
+
+.answer{
+    font-size: 14px;
+    color: #071629;
+}
+
+
+
+
+
+
+
+
