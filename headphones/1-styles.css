@@ -74,3 +74,165 @@ button {
 .hero_section h1 {
     font-size: 32px;
 }
+/* MEDIA SECTION FOR PHONE MAX WIDTH 375PX */
+
+
+@media only screen and (max-width: 376px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body {
+        background: url(headphones_hero_1.jpg) no-repeat center center/cover;
+        height: 869px;
+        width: 375px;
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+        padding-right: 200px;
+    }
+    
+    .nav_links ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .nav_links ul li a {
+        font-size: 0px;
+    }
+    
+    .logo {
+        width: 161px;
+        height: 32px;
+        margin-top: 20px;
+        align-items: center;
+    }
+    
+    button {
+        background-color: #FF6565;
+        border: none;
+        padding: 10px;
+        border-radius: 30px;
+        color: white;
+        font-size: 14px;
+        width: 162px;
+        height: 44px;
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+    
+    .hero_section {
+        width: 357px;
+        height: 436px;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        margin: auto;
+        margin-top: 200px;
+        margin-bottom: 50px;
+    
+    }
+    
+    .hero_section p {
+        text-align: center;
+    }
+    
+    .hero_section h3 {
+        font-size: 16px;
+    }
+    
+    .hero_section h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 376px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body {
+        background: url(headphones_hero_1.jpg) no-repeat center center/cover;
+        height: 100%;
+        width: 100%;
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 200px;
+        padding-right: 200px;
+
+    }
+    
+    .nav_links ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .nav_links ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    
+    .logo {
+        width: 114px;
+        height: 32px;
+    }
+    
+    button {
+        background-color: #FF6565;
+        border: none;
+        padding: 10px;
+        border-radius: 30px;
+        color: white;
+        font-size: 14px;
+        width: 162px;
+        height: 44px;
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+    
+    .hero_section {
+        width: 637px;
+        height: 313px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        margin: auto;
+        margin-top: 270px;
+        margin-bottom: 50px;
+    
+    }
+    
+    .hero_section p {
+        text-align: center;
+    }
+    
+    .hero_section h3 {
+        font-size: 16px;
+    }
+    
+    .hero_section h1 {
+        font-size: 32px;
+    }
+}
