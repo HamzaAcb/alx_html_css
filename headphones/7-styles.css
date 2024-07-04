@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This part is for the hero section it is saved under 1-style.css */
+
+.hero {
+    background: url(headphones_hero_1.jpg) no-repeat center center/cover;
+    height: 800px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.nav_links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav_links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.logo {
+    width: 161px;
+    height: 32px;
+}
+
+button {
+    background-color: #FF6565;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    width: 162px;
+    height: 44px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.hero_section {
+    width: 637px;
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: auto;
+    margin-top: 350px;
+    margin-bottom: 50px;
+
+}
+
+.hero_section p {
+    text-align: center;
+}
+
+.hero_section h3 {
+    font-size: 16px;
+}
+
+.hero_section h1 {
+    font-size: 32px;
+}
+
+/* This part is for the "What we do" section */
+
+.what_we_do {
+    height: 600px;
+    animation-name: bg;
+    animation-duration: 20s;
+}
+
+@keyframes bg {
+    from {background-color: white;}
+    to {background-color: pink;}
+}
+
+.text_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 637px;
+    height: 184px;
+    margin: auto;
+    margin-top: 80px
+}
+
+.text_section h1 {
+    font-size: 32px;
+    padding-bottom: 40px;
+}
+
+.text_section p {
+    text-align: center;
+    line-height: 30px;
+}
+
+.icon_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin: auto;
+    margin-top: 100px;
+    width: 1002px;
+    height: 193px;
+}
+
+.icon {
+    width:  52px;
+    height: 57px;
+    object-fit: cover;
+    align-items: center;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.icon_section h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon_section p {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* This part is for "OUR RESULTS" section */
+
+.our_results {
+    background: url(headphones_hero_2.jpg) no-repeat center center/cover;
+    height: 650px;
+    width: 100%;
+}
+
+.text2_section{
+    width: 637px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: auto;
+}
+
+.text2_section h1 {
+    font-size: 32px;
+    padding-bottom: 40px;
+    padding-top: 180px;
+}
+
+.text2_section p {
+    text-align: center;
+    line-height: 30px;
+}
+
+.penta_img {
+    height: 190px;
+    width: 190px;
+}
+
+.pentagone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin: auto;
+    margin-top: 200px;
+    width: 1002px;
+    height: 193px;
+    color: white;
+    position: relative;
+}
+
+ .pentagone h1 {
+    font-size: 46px;
+ }
+
+ .pentagone p {
+    font-size: 10px;
+ }
+
+
+.pentagone_shape {
+    position: relative;
+  }
+  
+  .pentatxt {
+    position: absolute;
+    bottom: 60px;
+    right: 40px;
+    padding-left: 40px;
+    padding-right: 10px;
+  }
+
+
+  /* This part is for the CONTACT US section */
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    height: 373px;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .contact h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 32px;
+  }
+
+  .contact button {
+    margin: auto;
+
+  }
+
+  hr {
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+
+  .contact h3 {
+    font-size: 14px;
+  }
+
+  /* This part is for the footer */
+
+  .footer {
+    background-color: #071629;
+    width: 100%;
+    height: 249px;
+    margin-top: 100px;
+  }
+
+  .logo_footer  {
+    float: left;
+    width: 161px;
+    height: 32px;
+    margin: 100px;
+  }
+
+  .media {
+    float: right;
+    width: 144px;
+    height: 33px;
+    margin: 100px;
+  }
+
+  .media img {
+    padding-right: 10px;
+  }
+
+.copyright {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding-top: 230px;
+}
